@@ -1,7 +1,7 @@
 from fastapi import FastAPI, responses, HTTPException
 app = FastAPI()
 
-data = {"123":"itworked"}
+data = {"prayer":"https://mrie.dev/prayertimes/default"}
 
 @app.get("/{link}")
 async def redirect(link):

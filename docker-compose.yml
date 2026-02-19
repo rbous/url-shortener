@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  url-shortener:
+    image: ghcr.io/rbous/url-shortener:main
+    ports:
+      - "8000:8000"
